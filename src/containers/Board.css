@@ -1,0 +1,12 @@
+.gridContainer{
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+  grid-gap: 1px;
+  text-align: center;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 200px;
+}
+

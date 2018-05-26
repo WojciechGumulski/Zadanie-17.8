@@ -1,0 +1,20 @@
+.tileStyle {
+	text-align: center;
+	font-size: 25px;
+}
+
+input:nth-of-type(3n + 0) {
+	border-right: 2px solid black;
+}
+
+input:nth-of-type(19), input:nth-of-type(20), input:nth-of-type(21),
+input:nth-of-type(22), input:nth-of-type(23), input:nth-of-type(24),
+input:nth-of-type(25), input:nth-of-type(26), input:nth-of-type(27) {
+	border-bottom: 2px solid black;
+}
+
+input:nth-of-type(46), input:nth-of-type(47), input:nth-of-type(48),
+input:nth-of-type(49), input:nth-of-type(50), input:nth-of-type(51),
+input:nth-of-type(52), input:nth-of-type(53), input:nth-of-type(54) {
+	border-bottom: 2px solid black;
+}

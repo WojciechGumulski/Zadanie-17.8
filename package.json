@@ -1,0 +1,39 @@
+{
+  "name": "WebpackConf",
+  "version": "1.0.0",
+  "description": "Installation & configuration of Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack",
+    "parentScript": "cross-env NODE_ENV=production",
+    "start": "webpack-dev-server --inline --hot --config ./webpack.config.js"
+  },
+  "keywords": [
+    "WebpackConf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.1.0",
+    "optimize-js-plugin": "0.0.4",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.20.3",
+    "sudoku-umd": "^1.0.1",
+    "url-loader": "^1.0.1",
+    "uuid": "^3.2.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}

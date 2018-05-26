@@ -1,0 +1,18 @@
+.app {
+  background: lightgrey;
+  text-align: center;
+}
+
+.Header {
+	font-size: 60px;
+}
+
+button {
+	margin: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+form>input {
+	margin-left: 20px;
+}
