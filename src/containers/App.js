@@ -17,7 +17,7 @@ class App extends React.Component {
         this.reset = this.reset.bind(this);
         this.solve = this.solve.bind(this);
         this.check = this.check.bind(this);
-        this.movesController = this.movesController.bind(this);
+      
         this.handleDifficulty = this.handleDifficulty.bind(this);
     }
     newGame() {
@@ -35,7 +35,7 @@ class App extends React.Component {
         data[index] = tile.target.value;
         let y = Object.keys(data).map(key => data[key]).join('');
        
-        this.movesController(tile, index);
+        
         this.setState({
             board: y
         });
@@ -63,16 +63,7 @@ class App extends React.Component {
             difficulty: e.target.value
         });
     }
-    movesController(tile, index) {
-        let undoMoves = Object.assign({}, this.state.board);
-        undoMoves[index] = tile.target.value;
-        let temp = Object.values(undoMoves).join('');
-        const moves = [temp, ...this.state.reverse];
-        this.setState({
-            reverse: moves,
-            reverseIndex: this.state.reverseIndex = moves.length - 1
-        });
-    }
+    
     
 
 
